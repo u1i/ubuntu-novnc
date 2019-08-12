@@ -5,20 +5,30 @@ ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/Singapore
 
 RUN apt-get update
-RUN apt-get install -y xfce4
+RUN apt-get install -y xfce4 xfce4-terminal
 RUN apt-get install -y novnc
 RUN apt-get install -y tightvncserver websockify
-RUN apt-get install -y wget net-tools
+RUN apt-get install -y wget net-tools wget curl chromium-browser
 ENV USER root
-RUN printf "axway99\naxway99\n\n" | vncserver :1
-
-RUN mkdir /root/stuff
-WORKDIR /root/stuff
-RUN wget -qO- https://github.com/novnc/noVNC/archive/v1.0.0.tar.gz | tar xz --strip 1 -C $PWD
-RUN mkdir /root/stuff/utils/websockify
-RUN wget -qO- https://github.com/novnc/websockify/archive/v0.6.1.tar.gz | tar xz --strip 1 -C /root/stuff/utils/websockify
-#RUN ./utils/launch.sh --vnc localhost:5901 --listen 6901&
+#RUN printf "axway99\naxway99\n\n" | vncserver :1
 
 COPY start.sh /start.sh
 RUN chmod a+x /start.sh
+
+RUN useradd -ms /bin/bash user
+RUN mkdir /.novnc
+RUN chown user:user /.novnc
+
+COPY config /home/user
+RUN chown -R user:user /home/user
+USER user
+
+WORKDIR /.novnc
+RUN wget -qO- https://github.com/novnc/noVNC/archive/v1.0.0.tar.gz | tar xz --strip 1 -C $PWD
+RUN mkdir /.novnc/utils/websockify
+RUN wget -qO- https://github.com/novnc/websockify/archive/v0.6.1.tar.gz | tar xz --strip 1 -C /.novnc/utils/websockify
+#RUN ./utils/launch.sh --vnc localhost:5901 --listen 6901&
+
+WORKDIR /home/user
+
 CMD ["sh","/start.sh"]

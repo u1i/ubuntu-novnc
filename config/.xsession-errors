@@ -1,0 +1,213 @@
+Xsession: X session started for  at Mon Aug 12 14:18:36 Europe 2019
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting DISPLAY=:1
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  109 (X_ChangeHosts)
+  Value in failed request:  0x5
+  Serial number of failed request:  6
+  Current serial number in output stream:  8
+localuser:user being added to access control list
+X Error of failed request:  BadValue (integer parameter out of range for operation)
+  Major opcode of failed request:  109 (X_ChangeHosts)
+  Value in failed request:  0x5
+  Serial number of failed request:  6
+  Current serial number in output stream:  8
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: systemd --user not found, ignoring --systemd argument
+dbus-update-activation-environment: setting VNCDESKTOP=X
+dbus-update-activation-environment: setting USER=root
+dbus-update-activation-environment: setting HOSTNAME=00dd3eebf379
+dbus-update-activation-environment: setting HOME=/home/user
+dbus-update-activation-environment: setting OLDPWD=/.novnc
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-lEMunSpWBU,guid=d1bb316f2baf8c2ca6ede9785d51753c
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+dbus-update-activation-environment: setting DISPLAY=:1
+dbus-update-activation-environment: setting XKL_XMODMAP_DISABLE=1
+dbus-update-activation-environment: setting QT_ACCESSIBILITY=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/home/user/.gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/.novnc
+dbus-update-activation-environment: setting XDG_DATA_DIRS=/usr/share/xfce4:/usr/local/share/:/usr/share/
+dbus-update-activation-environment: setting TZ=Europe/Singapore
+/usr/bin/x-session-manager: X server already running on display :1
+Xlib:  extension "RANDR" missing on display ":1".
+_IceTransmkdir: ERROR: euid != 0,directory /tmp/.ICE-unix will not be created.
+xfce4-session: No SSH authentication agent found
+gpg-agent[96]: WARNING: "--write-env-file" is an obsolete option - it has no effect
+gpg-agent[97]: gpg-agent (GnuPG) 2.2.4 started
+
+(xfce4-session:90): xfce4-session-WARNING **: 14:18:36.427: gpg-agent returned no PID in the variables
+
+(xfce4-session:90): xfce4-session-WARNING **: 14:18:36.431: xfsm_manager_load_session: Something wrong with /home/user/.cache/sessions/xfce4-session-00dd3eebf379:1, Does it exist? Permissions issue?
+Xlib:  extension "RANDR" missing on display ":1.0".
+Xlib:  extension "RANDR" missing on display ":1.0".
+Xlib:  extension "RANDR" missing on display ":1.0".
+
+(xfwm4:99): xfwm4-WARNING **: 14:18:36.471: The display does not support the XRender extension.
+
+(xfwm4:99): xfwm4-WARNING **: 14:18:36.471: The display does not support the XRandr extension.
+Xlib:  extension "RANDR" missing on display ":1.0".
+
+(xfwm4:99): xfwm4-WARNING **: 14:18:36.471: The display does not support the XComposite extension.
+
+(xfwm4:99): xfwm4-WARNING **: 14:18:36.471: The display does not support the XDamage extension.
+
+(xfwm4:99): xfwm4-WARNING **: 14:18:36.471: The display does not support the XFixes extension.
+
+(xfwm4:99): xfwm4-WARNING **: 14:18:36.471: Compositing manager disabled.
+
+(xfwm4:99): GLib-CRITICAL **: 14:18:36.482: g_str_has_prefix: assertion 'prefix != NULL' failed
+Xlib:  extension "RANDR" missing on display ":1.0".
+
+(xfsettingsd:107): xfsettingsd-CRITICAL **: 14:18:36.509: No RANDR extension found in display :1.0. Display settings won't be applied.
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+
+(xfsettingsd:107): xfsettingsd-CRITICAL **: 14:18:36.512: XI is not present.
+
+(xfsettingsd:107): xfsettingsd-CRITICAL **: 14:18:36.512: Failed to initialize the Xkb extension.
+
+(xfdesktop:108): Gtk-WARNING **: 14:18:36.514: Unable to locate theme engine in module_path: "pixmap",
+
+(Thunar:105): Gtk-WARNING **: 14:18:36.514: Unable to locate theme engine in module_path: "pixmap",
+
+(xfce4-session:90): Gtk-WARNING **: 14:18:36.514: Unable to locate theme engine in module_path: "pixmap",
+
+(Thunar:105): Gtk-WARNING **: 14:18:36.515: Unable to locate theme engine in module_path: "pixmap",
+
+(xfce4-session:90): Gtk-WARNING **: 14:18:36.515: Unable to locate theme engine in module_path: "pixmap",
+
+(xfdesktop:108): Gtk-WARNING **: 14:18:36.515: Unable to locate theme engine in module_path: "pixmap",
+
+(Thunar:105): Gtk-WARNING **: 14:18:36.515: Unable to locate theme engine in module_path: "pixmap",
+
+(xfdesktop:108): Gtk-WARNING **: 14:18:36.515: Unable to locate theme engine in module_path: "pixmap",
+
+(xfce4-session:90): Gtk-WARNING **: 14:18:36.515: Unable to locate theme engine in module_path: "pixmap",
+
+(Thunar:105): Gtk-WARNING **: 14:18:36.517: Unable to locate theme engine in module_path: "pixmap",
+
+(Thunar:105): Gtk-WARNING **: 14:18:36.517: Unable to locate theme engine in module_path: "pixmap",
+
+(xfdesktop:108): Gtk-WARNING **: 14:18:36.517: Unable to locate theme engine in module_path: "pixmap",
+
+(xfce4-session:90): Gtk-WARNING **: 14:18:36.517: Unable to locate theme engine in module_path: "pixmap",
+
+(xfdesktop:108): Gtk-WARNING **: 14:18:36.517: Unable to locate theme engine in module_path: "pixmap",
+
+(xfce4-session:90): Gtk-WARNING **: 14:18:36.518: Unable to locate theme engine in module_path: "pixmap",
+
+(xfsettingsd:107): xfsettingsd-CRITICAL **: 14:18:36.518: Failed to initialize the Accessibility extension.
+
+(xfsettingsd:107): GLib-CRITICAL **: 14:18:36.520: g_str_has_prefix: assertion 'prefix != NULL' failed
+Xlib:  extension "RANDR" missing on display ":1.0".
+Xlib:  extension "RANDR" missing on display ":1.0".
+
+(xfsettingsd:107): GLib-GObject-CRITICAL **: 14:18:36.532: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(migrate:117): Gtk-WARNING **: 14:18:36.545: Unable to locate theme engine in module_path: "pixmap",
+
+(migrate:117): Gtk-WARNING **: 14:18:36.546: Unable to locate theme engine in module_path: "pixmap",
+
+(migrate:117): Gtk-WARNING **: 14:18:36.546: Unable to locate theme engine in module_path: "pixmap",
+
+(xfsettingsd:107): GLib-GObject-CRITICAL **: 14:18:36.547: g_value_get_string: assertion 'G_VALUE_HOLDS_STRING (value)' failed
+
+(migrate:117): Gtk-WARNING **: 14:18:36.548: Unable to locate theme engine in module_path: "pixmap",
+
+(migrate:117): Gtk-WARNING **: 14:18:36.548: Unable to locate theme engine in module_path: "pixmap",
+
+(xfsettingsd:107): GLib-CRITICAL **: 14:18:36.556: g_hash_table_destroy: assertion 'hash_table != NULL' failed
+
+(xfsettingsd:107): GLib-GObject-CRITICAL **: 14:18:36.556: object XklEngine 0x562988b55280 finalized while still in-construction
+
+(xfsettingsd:107): GLib-GObject-CRITICAL **: 14:18:36.556: Custom constructor for class XklEngine returned NULL (which is invalid). Please use GInitable instead.
+
+(xfwm4:99): xfwm4-WARNING **: 14:18:36.591: The property '/general/double_click_distance' of type int is not supported
+
+(xfdesktop:108): GVFS-RemoteVolumeMonitor-WARNING **: 14:18:36.722: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+xfwm4-Message: 14:18:36.740: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:36.796: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:36.853: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:36.909: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:36.971: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:37.035: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:37.095: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:37.152: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:37.207: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:37.260: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:37.320: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:37.380: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:37.440: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:37.501: Unsupported keyboard modifier '<Super>Tab'
+xfwm4-Message: 14:18:37.563: Unsupported keyboard modifier '<Super>Tab'
+
+(xfwm4:99): xfwm4-WARNING **: 14:18:37.565: Cannot find visual format on screen 0
+
+** (xfdesktop:108): WARNING **: 14:18:37.572: Failed to get system bus: Could not connect: No such file or directory
+Xlib:  extension "RANDR" missing on display ":1.0".
+Xlib:  extension "RANDR" missing on display ":1.0".
+
+** (xfce4-session:90): CRITICAL **: 14:18:44.390: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:90): GLib-CRITICAL **: 14:18:44.390: g_propagate_error: assertion 'src != NULL' failed
+
+** (xfce4-session:90): CRITICAL **: 14:18:44.390: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:90): GLib-CRITICAL **: 14:18:44.391: g_propagate_error: assertion 'src != NULL' failed
+
+** (xfce4-session:90): CRITICAL **: 14:18:44.391: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:90): GLib-CRITICAL **: 14:18:44.391: g_propagate_error: assertion 'src != NULL' failed
+
+(xfce4-session:90): xfce4-session-WARNING **: 14:18:44.393: failed to run script: Failed to execute child process ?/usr/bin/pm-is-supported? (No such file or directory)
+
+** (xfce4-session:90): CRITICAL **: 14:18:44.394: polkit_authority_check_authorization_sync: assertion 'POLKIT_IS_AUTHORITY (authority)' failed
+
+(xfce4-session:90): GLib-CRITICAL **: 14:18:44.394: g_propagate_error: assertion 'src != NULL' failed
+
+(xfce4-session:90): xfce4-session-WARNING **: 14:18:44.395: failed to run script: Failed to execute child process ?/usr/bin/pm-is-supported? (No such file or directory)
+
+(xfce4-panel:103): Gtk-WARNING **: 14:19:03.041: Cannot load drag icon from icon name utilities-terminal
+Gtk-Message: 14:19:12.327: GtkDialog mapped without a transient parent. This is discouraged.
+Failed to move to new namespace: PID namespaces supported, Network namespace supported, but failed: errno = Operation not permitted
+Gtk-Message: 14:19:32.449: GtkDialog mapped without a transient parent. This is discouraged.
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+[407:422:0812/141959.585895:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+Xlib:  extension "RANDR" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+[433:433:0812/141959.641763:ERROR:gl_surface_glx.cc(425)] glxQueryVersion failed
+[433:433:0812/141959.641918:ERROR:gl_initializer_x11.cc(147)] GLSurfaceGLX::InitializeOneOff failed.
+[433:433:0812/141959.652825:ERROR:viz_main_impl.cc(170)] Exiting GPU process due to errors during initialization
+Gkr-Message: 14:19:59.658: secret service operation failed: The name org.freedesktop.secrets was not provided by any .service files
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+[407:492:0812/141959.816431:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[407:492:0812/141959.816540:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[407:492:0812/141959.816640:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[407:492:0812/141959.816699:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[407:492:0812/141959.816763:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[469:476:0812/141959.830049:ERROR:cmd_buffer_helper.cc(141)] ContextResult::kFatalFailure: CommandBufferHelper::AllocateRingBuffer() failed
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+[530:545:0812/142004.148265:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+Xlib:  extension "RANDR" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+[557:557:0812/142004.201857:ERROR:gl_surface_glx.cc(425)] glxQueryVersion failed
+[557:557:0812/142004.201922:ERROR:gl_initializer_x11.cc(147)] GLSurfaceGLX::InitializeOneOff failed.
+[557:557:0812/142004.216738:ERROR:viz_main_impl.cc(170)] Exiting GPU process due to errors during initialization
+Gkr-Message: 14:20:04.226: secret service operation failed: The name org.freedesktop.secrets was not provided by any .service files
+Xlib:  extension "XInputExtension" missing on display ":1.0".
+[530:616:0812/142004.362966:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[530:616:0812/142004.363041:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[530:616:0812/142004.363095:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[530:616:0812/142004.363130:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+[530:616:0812/142004.363159:ERROR:bus.cc(394)] Failed to connect to the bus: Failed to connect to socket /var/run/dbus/system_bus_socket: No such file or directory
+Gtk-Message: 14:20:08.513: GtkDialog mapped without a transient parent. This is discouraged.
+
+(exo-desktop-item-edit:647): GVFS-RemoteVolumeMonitor-WARNING **: 14:20:11.387: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
+[407:418:0812/142011.566525:ERROR:browser_process_sub_thread.cc(203)] Waited 10002 ms for network service
+Gtk-Message: 14:20:21.014: GtkDialog mapped without a transient parent. This is discouraged.
+
+(exo-desktop-item-edit:659): GVFS-RemoteVolumeMonitor-WARNING **: 14:20:22.068: remote volume monitor with dbus name org.gtk.vfs.UDisks2VolumeMonitor is not supported
