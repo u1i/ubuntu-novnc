@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 MAINTAINER uli.hitzel@gmail.com
-EXPOSE 5901 6901
+EXPOSE 5901 8080
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/Singapore
 
@@ -27,7 +27,7 @@ WORKDIR /.novnc
 RUN wget -qO- https://github.com/novnc/noVNC/archive/v1.0.0.tar.gz | tar xz --strip 1 -C $PWD
 RUN mkdir /.novnc/utils/websockify
 RUN wget -qO- https://github.com/novnc/websockify/archive/v0.6.1.tar.gz | tar xz --strip 1 -C /.novnc/utils/websockify
-#RUN ./utils/launch.sh --vnc localhost:5901 --listen 6901&
+RUN ln -s vnc.html index.html
 
 WORKDIR /home/user
 
