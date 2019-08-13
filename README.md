@@ -12,7 +12,7 @@ An Ubuntu 18.04 Desktop in a Docker container, running
 
 ## Access via Web Browser
 
-`http://localhost?password=insecure`
+`http://localhost:8080?password=insecure`
 
 ![](desktop1.png)
 
