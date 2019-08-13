@@ -14,6 +14,8 @@ An Ubuntu 18.04 Desktop in a Docker container, running
 
 `http://localhost?password=insecure`
 
+![](desktop1.png)
+
 ## Use a different Password
 
 Make sure the password is 8 characters or less. VNC does not seem to like password that are too simple.
