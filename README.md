@@ -4,6 +4,7 @@ An Ubuntu 18.04 Desktop in a Docker container, running
 
 * Xfce4
 * Chromium
+* Firefox
 * Terminal
 
 ## Run the Container

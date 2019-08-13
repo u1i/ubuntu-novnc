@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 MAINTAINER uli.hitzel@gmail.com
-EXPOSE 5901 8080
+EXPOSE 8080 5901
 ARG DEBIAN_FRONTEND=noninteractive
 ENV TZ=Europe/Singapore
 
@@ -8,7 +8,7 @@ RUN apt-get update
 RUN apt-get install -y xfce4 xfce4-terminal
 RUN apt-get install -y novnc
 RUN apt-get install -y tightvncserver websockify
-RUN apt-get install -y wget net-tools wget curl chromium-browser
+RUN apt-get install -y wget net-tools wget curl chromium-browser firefox openssh-client git
 ENV USER root
 #RUN printf "axway99\naxway99\n\n" | vncserver :1
 
